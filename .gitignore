@@ -1,0 +1,42 @@
+# Laravel
+/vendor
+/storage/*.key
+/storage/logs
+/storage/framework/*
+!/storage/framework/.gitignore
+/public/storage
+/public/build
+/public/hot
+
+# Archivos de entorno
+.env
+.env.backup
+.env.production
+
+# Node.js
+/node_modules
+/npm-debug.log*
+/yarn-error.log*
+
+# PHPUnit
+.phpunit.cache
+.phpunit.result.cache
+
+# IDEs y herramientas de desarrollo
+/.phpactor.json
+/.idea/
+/.vscode/
+/.fleet/
+/.zed/
+/.nova
+
+# Homestead y configuraciones locales
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Herramientas adicionales
+.DS_Store
+Thumbs.db
+*.log
+*.pid
